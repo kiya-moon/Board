@@ -1,0 +1,186 @@
+* { margin: 0; padding: 0; box-sizing:border-box;}
+li { list-style : none;}
+a { text-decoration: none;}
+body { width : 1200px; margin: 0 auto; -ms-overflow-style: none; }
+ 
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* boardList */
+
+#board { margin : 5% 0;  }
+#board h2 { text-align:center; margin-bottom: 60px; }
+.table { 
+	width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    border-collapse: collapse;
+}
+.table thead {
+	display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.table tr {
+	display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.table th, .table td {
+	padding: 1.5rem;
+	vertical-align: top;
+	border-top: 1px solid #dee2e6;
+	text-align:center; 
+}
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+.table tr:last-child { border-bottom : 2px solid #dee2e6; }
+
+.table-hover tbody tr:hover {
+    color: #212529;
+    background-color: rgba(0,0,0,.075);
+}
+.table td.page_left { text-align:left; padding-left: 80px; }
+
+
+.btn-outline {
+	padding: 10px;
+	line-height: 16px;
+	background-color:#fff; 
+	border:2px solid #709fef;
+	cursor: pointer;
+}
+.but2 { margin:0 auto; text-align:right; }
+
+.btn-inline {
+	padding: 10px;
+	line-height: 16px;
+	background-color:#709fef; 
+	border:2px solid #709fef;
+	cursor: pointer;
+}
+.btn-inline font a {
+	color:#fff;
+}
+.ck-rounded-corners .ck.ck-editor__main>.ck-editor__editable, .ck.ck-editor__main>.ck-editor__editable.ck-rounded-corners {
+	min-height: 500px;
+}
+
+.but_page { margin:0 auto; text-align:right; margin-top: 20px;}
+
+.but_page .btn-inline-page { 
+	margin-left:10px;
+	padding: 10px 20px;
+	line-height: 16px;
+	background-color:#709fef; 
+	color:#fff;
+	border:2px solid #709fef;
+	cursor: pointer;
+}
+
+
+/* end---------- */
+
+/* write */
+
+#write { margin-top : 5%;  }
+#write h2 { text-align:center; margin-bottom: 60px; }
+
+.title {
+	width: 100%;
+	margin: 0 0 2% 0;
+	padding: 0;
+	clear: both;
+	overflow: hidden;
+}
+.title input {
+	width: 100%;
+	padding: 0 25px 0 45px;
+	height: 47px;
+	line-height: 120%;
+	font-size: 100%;
+	color: #aaa;
+	border:1px solid #c4c4c4;
+}
+
+.boardName {
+	width: 100%;
+	margin: 0 0 1% 0;
+	padding: 0;
+	clear: both;
+	overflow: hidden;
+}
+.boardName select {
+	width: 23%;
+	padding: 0 25px 0 45px;
+	height: 47px;
+	line-height: 120%;
+	font-size: 100%;
+	color: #aaa;
+	border:1px solid #c4c4c4;
+}
+
+.content {
+	width: 100%;
+	margin: 0 0 1% 0;
+	padding: 0;
+	clear: both;
+	overflow: hidden;
+}
+.content textarea {
+	resize: none;
+	width: 100%;
+	padding: 20px;
+	height: 500px;
+	line-height: 120%;
+	font-size: 16px;
+	color: #aaa;
+	border:1px solid #c4c4c4;
+}
+
+/* end---------- */
+
+/* board */
+.boardName p {
+	width: 23%;
+	padding: 0 25px 0 45px;
+	height: 47px;
+	line-height: 120%;
+	font-size: 100%;
+	color: #aaa;
+	border:1px solid #c4c4c4;
+}
+
+.createdDate p {
+	width: 23%;
+	padding: 0 25px 0 45px;
+	height: 47px;
+	line-height: 120%;
+	font-size: 100%;
+	color: #aaa;
+	border:1px solid #c4c4c4;
+}
+
+.title p {
+	width: 23%;
+	padding: 0 25px 0 45px;
+	height: 47px;
+	line-height: 120%;
+	font-size: 100%;
+	color: #aaa;
+	border:1px solid #c4c4c4;
+}
+
+.content p {
+	width: 23%;
+	padding: 0 25px 0 45px;
+	height: 47px;
+	line-height: 120%;
+	font-size: 100%;
+	color: #aaa;
+	border:1px solid #c4c4c4;
+}
+/* end---------- */
